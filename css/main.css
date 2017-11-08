@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+   }
+   .container {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+   }
+   h1{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-family: Lobster;
+   }
+   h3{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-family: Lobster;
+   }
+   div.row {
+    display: flex;
+   }
+   div.col {
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    font-size: 28px;
+    background-color: rgb(255,255,255);
+   }
